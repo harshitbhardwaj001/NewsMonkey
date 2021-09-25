@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Kelsie Iorio",
+            "title": "AFL grand final pre-show entertainment: Baker Boy, Eskimo Joe, John Butler, Stella Donnelley and more make for a strong start to finals footy",
+            "description": "There have been some legendary AFL grand final pre-game performances over the years, and some… less so, but 2021's somewhat mismatched group of Aussie talent hits the right notes.",
+            "url": "http://www.abc.net.au/news/2021-09-25/afl-grand-final-entertainment-baker-boy-eskimo-joe-john-butler/100491694",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/7b4507266102b69b9321505c53d9b7c1?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=19&width=862&height=485",
+            "publishedAt": "2021-09-25T13:22:09Z",
+            "content": "There have been some legendary AFL grand final pre-game performances over the years, and some less so, but 2021's somewhat mismatched group of Aussie talent has hit the right notes.\r\nIt's a tough ask… [+3988 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-times",
+                "name": "The Washington Times"
+            },
+            "author": "The Washington Times http://www.washingtontimes.com",
+            "title": "Latest Quizzes",
+            "description": "Take a break from the hard news of the day and enjoy a quiz on entertainment, sports, history and politics only from The Washington Times.",
+            "url": "https://www.washingtontimes.com/quiz/",
+            "urlToImage": "https://static.parade.com/wp-content/uploads/2020/08/william-shakespeare-quotes.jpg",
+            "publishedAt": "2021-02-10T03:52:37.2719772Z",
+            "content": "Featured Quizzes\r\nAttention all William Shakespeare experts. Pinpoint the prose's origin plucked from one of his many famous plays in this multiple-choice challenge.\r\n Shares \r\nName these legendary c… [+32652 chars]"
+        },
+        {
+            "source": {
+                "id": "the-lad-bible",
+                "name": "The Lad Bible"
+            },
+            "author": null,
+            "title": "Breaking Entertainment News - Celebrity & Showbiz News | LADbible",
+            "description": "The latest entertainment news in the UK and worldwide on LADbible. We cover breaking celebrity news and showbiz stories. Check out our exclusives.",
+            "url": "https://www.theladbible.com/entertainment",
+            "urlToImage": "https://www.cnet.com/a/img/zfZ8BRHHB-MB0LBn4vivaiEpq0A=/940x0/2020/06/18/f3b32363-55bf-4db3-a333-7f58e6b7e6dc/cursed-season1-episode4-00-44-00-09rc2.jpg",
+            "publishedAt": "2020-06-18T14:07:50.1068606Z",
+            "content": "Netflix's new fantasy show, Cursed, will launch on 17 July"
+        }
+    ]
+}
