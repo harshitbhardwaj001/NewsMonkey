@@ -35,15 +35,20 @@ export class News extends Component {
   }
 
   async updateNews() {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9521b7c4893843ebacfc128b19253c72&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    this.props.setProgress(10);
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=1cc43720ff3b4b84bc5cfa8bf34efdf1&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
+    this.props.setProgress(30);
     let parsedData = await data.json();
+    this.props.setProgress(70);
     console.log(parsedData);
     this.setState({
       articles: this.state.articles.concat(parsedData.articles),
       totalResults: parsedData.totalResults,
       loading: false,
     });
+
+    this.props.setProgress(100);
   }
 
   async componentDidMount() {
@@ -83,11 +88,9 @@ export class News extends Component {
               {this.state.articles.map((element) => (
                 <div className="col-md-4 my-4" key={element.url}>
                   <NewsItem
-                    title={element.title ? element.title.slice(0, 45) : ""}
+                    title={element.title}
                     description={
                       element.description
-                        ? element.description.slice(0, 88)
-                        : ""
                     }
                     imageUrl={element.urlToImage}
                     newsUrl={element.url}
